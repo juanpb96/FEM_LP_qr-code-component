@@ -1,100 +1,76 @@
-# Frontend Mentor - QR code component
+# Frontend Mentor - QR code component solution
 
-![Design preview for the QR code component coding challenge](./preview.jpg)
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+### Screenshot
 
-## The challenge
+- Solution in mobile 📱:
 
-Your challenge is to build out this QR code component and get it looking as close to the design as possible.
+![QR code component in mobile](./readme-assets/Mobile.png)
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+- Solution in desktop 💻:
 
-### Want some support on the challenge? 
+![QR code component in desktop](./readme-assets/Desktop.png)
 
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+### Links
 
-## Where to find everything
+- [Frontend Mentor Solution](https://your-solution-url.com)
+- [Live Site](https://juanbonilla.me/FEM_LP_qr-code-component/)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+## My process
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+### Built with
 
-If you would like the Figma design file to gain experience using professional tools and build more accurate projects faster, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+- Semantic HTML5 markup
+- CSS custom properties - for managing colors and spacing consistently
+- CSS Grid - to center the card component
+- CSS Reset - rules adapted from Josh Comeau's ["A Modern CSS Reset"](https://www.joshwcomeau.com/css/custom-css-reset/)
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+### What I learned
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+While this specific challenge was straightforward for me to complete, it served as an excellent opportunity to focus on writing clean and semantic HTML code. I prioritized clarity by implementing semantic HTML tags and reusable CSS styles that are easy to follow and modify in the future.
 
-## Using AI coding assistants
+### Continued development
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
+Moving forward into my next projects, I want to focus on a mix of expanding my technical toolkit and refining my foundational skills:
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
+- **Micro-interactions and Animations**: While I focus on clean layout structure, I want to start incorporating subtle micro-interactions (like smooth hover effects, active states, and transition animations). This will help elevate my projects from static pages to more engaging, dynamic user experiences.
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
+- **Deepening Accessibility**: Accessibility is a skill I am constantly looking to refine. I want to continue pushing myself in future projects to ensure my semantic HTML translates perfectly to screen readers and keyboard navigation.
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+- **The "AI Mentor" Workflow**: This project proved how valuable continuous, guided interaction is for my growth. I plan to keep using this conversational approach to uncover gaps in my understanding of the fundamentals. Creating a comfortable space to ask "silly" questions is something I want to maintain to ensure I am never building on shaky foundations.
 
-## Building your project
+### Useful resources
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+- [A Modern CSS Reset by Josh Comeau](https://www.joshwcomeau.com/css/custom-css-reset/) - This was essential for clearing out default browser styles before implementing my own layout. I adapted rules from this reset to ensure a consistent, predictable baseline across different browsers.
+- [AGENTS.md](./AGENTS.md) - Reading this file gave me a clear framework on how to effectively interact with the AI agent. It helped me shift my mindset from treating AI as a "code generator" to treating it as a true mentor, someone to ask silly questions, challenge my assumptions, and encourage me to think critically rather than just handing over the solution.
+- [MDN Web Docs](https://developer.mozilla.org/) - My absolute go-to for diving deeper into specific CSS properties. For this challenge, it was helpful to get more details on viewport heights, `box-shadow` values, and centering elements using `display: grid` and `place-items: center`.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+### AI Collaboration
 
-## Deploying your project
+For this project, I collaborated initially with Cursor and once I reached the free tier limits, I decided to continue with Claude as I enjoyed the personalized coding mentor experience. I settle on using Claude as I heard good comments of its models and I was curious about the interaction with it.
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+- I asked questions, even the ones that felt "silly", and walk through my thought process.
+- The realization that AI can act as a patient, always-available mentor was a complete game-changer. It created a safe space to ask fundamental questions, which dramatically reinforced my understanding and kept my momentum going.
+- Since the coding challenge itself was relatively simple, it allowed me to focus purely on the conversational and conceptual side of learning.
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+## Author
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://www.frontendmentor.io/guides/hosting-your-solution).
-
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://www.frontendmentor.io/guides/how-to-submit-solutions) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Share on [X (formerly Twitter)](https://x.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in your post. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- Website - [juanbonilla.me](https://juanbonilla.me)
+- Frontend Mentor - [@juanpb96](https://www.frontendmentor.io/profile/juanpb96)
+- [LinkedIn](https://www.linkedin.com/in/juanpablobonilla/)
