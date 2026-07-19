@@ -29,7 +29,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- [Frontend Mentor Solution](https://your-solution-url.com)
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/qr-code-component-fIiOcgsKtu)
 - [Live Site](https://juanbonilla.me/FEM_LP_qr-code-component/)
 
 ## My process
@@ -43,7 +43,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-While this specific challenge was straightforward for me to complete, it served as an excellent opportunity to focus on writing clean and semantic HTML code. I prioritized clarity by implementing semantic HTML tags and reusable CSS styles that are easy to follow and modify in the future.
+While this specific challenge was straightforward for me to complete, it served as an excellent opportunity to focus on writing clean and semantic HTML code. I prioritized accessibility and clarity by implementing specific semantic tags:
+
+- `<main>` to identify the primary content
+- `<figure>` with `<figcaption>` to wrap the QR code and its instructions, which makes the relationship between the image and its caption clear to screen readers
+- `<h1>` as the primary heading for the card content, placed inside the figcaption to describe the main purpose of the QR code
+
+By being intentional about these structural choices, I deepened my understanding of how semantic HTML creates a better experience for all users, especially those using assistive technologies.
 
 ### Continued development
 
